@@ -10,6 +10,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import com.datanapps.publishlib.databinding.ActivityMainBinding
+import com.datanapps.test_library.printLog
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,8 +30,9 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            val msg = "Replace with your own action"
+            // use library method
+            printLog(message = msg)
         }
     }
 
