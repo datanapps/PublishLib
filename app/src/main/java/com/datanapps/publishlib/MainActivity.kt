@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         binding.fab.setOnClickListener { view ->
             val msg = "Replace with your own action"
             // use library method
-            printLog(message = msg)
+            //printLog(message = msg)
         }
     }
 

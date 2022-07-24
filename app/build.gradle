@@ -47,5 +47,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     // our library
-    implementation project(':test_library')
+    // implementation project(':test_library')
 }
