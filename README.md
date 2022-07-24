@@ -13,8 +13,8 @@ Add it in your root build.gradle at the end of repositories:
 	}
   
 #### Step 2. Add the dependency
-version : v1.0.5
+version : v1.0.0
 
 	dependencies {
-	        implementation 'com.github.datanapps:kotlinutility:$version'
+	        implementation 'com.github.datanapps:PublishLib:v1.0.0'
 	}
